@@ -1,0 +1,19 @@
+h1
+{
+    text-align: center;
+    background-color: gold;
+}
+
+.img
+{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+img:hover
+{
+    transform : scale(1.2);
+    text-decoration: red;
+}
